@@ -1,0 +1,39 @@
+{
+  "name": "blog-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@types/react-syntax-highlighter": "^15.5.8",
+    "axios": "^1.5.1",
+    "framer-motion": "^10.16.4",
+    "next": "13.5.4",
+    "nookies": "^2.5.2",
+    "nprogress": "^0.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.47.0",
+    "react-icons": "^4.11.0",
+    "react-markdown": "^9.0.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "use-state-persist": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/nprogress": "^0.2.1",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "typescript": "^5"
+  }
+}

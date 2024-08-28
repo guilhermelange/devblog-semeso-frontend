@@ -1,0 +1,13 @@
+#loadingbar {
+    animation: loading 8s normal linear;
+}
+
+@keyframes loading {
+    from {
+        width: 1%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
