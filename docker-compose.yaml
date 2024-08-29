@@ -1,0 +1,10 @@
+name: devblog
+
+services:
+  blog-frontend:
+    image: blog-frontend
+    build:
+      context: .
+    restart: unless-stopped
+    ports:
+      - 80:3000
